@@ -21,6 +21,7 @@ $ dotnet run -p 8080:8080 -e SPRING_PROFILES_ACTIVE='prod' -e FORUM_DATABASE_DRI
 
 # O servidor inciará na porta:8080
 
+```bash
 
 ### 🛠 Tecnologias
 
