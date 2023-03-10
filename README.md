@@ -16,7 +16,7 @@ $ git clone <https://github.com/alanjuniorn8/ForumSpringAPI>
 $ docker build -t springForum .
 
 # Crie o container
-$ dotnet run -p 8080:8080 -e SPRING_PROFILES_ACTIVE='prod' -e FORUM_DATABASE_DRIVER='org.h2.Driver' -e FORUM_DATABASE_URL='jdbc:h2:mem:alura-forum'
+$ docker run -p 8080:8080 -e SPRING_PROFILES_ACTIVE='prod' -e FORUM_DATABASE_DRIVER='org.h2.Driver' -e FORUM_DATABASE_URL='jdbc:h2:mem:alura-forum'
   -e FORUM_DATABASE_USERNAME ='sa' -e FORUM_DATABASE_PASSWORD='' -e FORUM_JWT_SECRET='your-secret' springForum
 
 # O servidor inciará na porta:8080
